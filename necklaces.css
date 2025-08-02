@@ -1,0 +1,110 @@
+body{
+    font-family: sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* \\\\\\\ start header\\\\\\\ */
+
+.header{
+    background-color: rgb(142, 104, 84);
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .container .main-nav {
+    display: flex; 
+}
+.header .logo{
+    color:#3b2b1c;
+    font-size: 26px;
+    font-weight: bold;
+}
+.header .container .main-nav li a{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding:30PX;
+    height: 72PX;
+color: rgb(74, 52, 34);
+border-radius: 30px;
+transition: 0.3s ease;
+}
+.header .container .main-nav li a:hover{
+    color: #8a5c46;
+background-color: rgb(170, 135, 107);
+}
+
+
+
+/* \\\\\\\\\\start priject\\\\\\ */
+.colar{
+    background-color: #dbc9bf;
+}
+.title h2{
+    color: rgb(90, 62, 43);
+text-align: center;
+width: 90%;
+padding-top: 30px;
+padding-left: 100px;
+margin-bottom: 50px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.projectsection .container{
+    background-color: #dbc9bf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+    width: 90%;
+    gap: 30px;
+}
+.project{
+    box-shadow: 0 0 10px #9b968e;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    transition: 0.7s ease;
+    line-height: 1.4;
+    width: 300px;
+}
+.project:hover{
+    transform:scale(0.9) ;
+}
+
+.project img{
+    width: 80%;
+    margin-bottom: 20px;
+}
+.project h2{
+    color: rgb(101, 71, 52);
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+.project  p{
+    color: rgb(96, 65, 48);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.project h4{
+    color: rgb(71, 52, 38);
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+.project button:hover{
+    color: #9a653d ;
+    background-color: #d4a98e;
+}
+.project button{
+    color: rgb(136, 87, 50);
+    padding: 5px;
+}
+
+/* \\\\\\\\\\end priject\\\\\\ */

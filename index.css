@@ -1,0 +1,272 @@
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* \\\\\\\ start header\\\\\\\ */
+
+.header{
+    background-color: rgb(142, 104, 84);
+    
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    /* padding: 20PX; */
+}
+
+.header .container .main-nav {
+    display: flex; 
+}
+.header .logo{
+    color:#3b2b1c;
+    font-size: 26px;
+    font-weight: bold;
+}
+.header .container .main-nav li a{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 30PX;
+    height: 72PX;
+color: rgb(74, 52, 34);
+border-radius: 30px;
+transition: 0.3s ease;
+}
+.header .container .main-nav li a:hover{
+    color: #8a5c46;
+background-color: rgb(170, 135, 107);
+
+}
+
+
+/* \\\\\\\\\\\ start landing\\\\\\\ */
+.landing {
+
+    background-color: #dbc9bf;
+}
+.landing .container{
+    display: flex;
+    align-items: center;
+    padding-bottom: 90px;
+    font-family: sans-serif;
+    gap: 60px;
+}
+.landing .image img{
+    width: 500px;
+    border-radius: 50%;
+    margin-top: 40px;
+
+}
+.landing .text h1{
+    font-size: 40px;
+    color:#4f3117;
+}
+.landing .text p{
+    font-size: 25px;
+    line-height: 1.7;
+    color: #613c29;
+}
+/* \\\\\\\\end lamding\\\\\\\ */
+
+
+/* \\\\\\\\\start laptob\\\\\\ */
+.title h2 {
+    color: rgb(71, 42, 27);
+width: 100%;
+text-align: center;
+margin-bottom: 30px;
+margin-top: 20px;
+margin-left: 50px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title h5{
+    color: rgb(120, 71, 47);
+text-align: center;
+width: 100%;
+margin-bottom: 50px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.itemssection .container{
+    text-align: center;
+    gap: 50px;
+    padding-bottom: 70px;
+    width: 65%;
+
+}
+.laptob{
+    box-shadow: 0 0 10px #989591;
+    border-radius: 70px;
+    
+
+
+}
+
+.laptob img{
+    width: 90%;
+    border-radius: 70px;
+    padding: 20px;
+}
+.laptob h3{
+    color: rgb(88, 53, 36);
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.paragraph p{
+    color: rgb(100, 76, 59);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    font-size: 20px;   
+    line-height: 1.7;
+
+
+}
+
+/* \\\\\\\\\end laptob\\\\\\ */
+
+/* \\\\\\\\\\start priject\\\\\\ */
+.title h2{
+    color: rgb(90, 62, 43);
+text-align: center;
+width: 90%;
+margin-bottom: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.projectsection .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+    width: 90%;
+    gap: 30px;
+    
+}
+.project{
+    box-shadow: 0 0 10px #9b968e;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    transition: 0.7s ease;
+    line-height: 1.4;
+    width: 300px;
+}
+.project:hover{
+    transform:scale(0.9) ;
+}
+
+.project img{
+    width: 80%;
+    margin-bottom: 20px;
+}
+.project h2{
+    color: rgb(101, 71, 52);
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+.project  p{
+    color: rgb(96, 65, 48);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.project h4{
+    color: rgb(71, 52, 38);
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+.projectsection  a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(99, 65, 40);
+    padding: 10px;
+    box-shadow: 0 0 10px #9b968e;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 0.7s ease;
+    line-height: 0.9;
+    width: 200px;
+    margin-left: 43%;
+    margin-top: -30px;
+    margin-bottom: 40px;
+    
+}
+.projectsection a:hover{
+    color: #9a653d ;
+    background-color: #d4a98e;
+}
+
+/*  \\\\\\\\\\end project section\\\\\\\\  */
+
+
+/* \\\\\\\\\\\ start about\\\\\\\ */
+.about {
+    background-color: #dbc9bf;
+}
+.about .container{
+    display: flex;
+    align-items: center;
+    padding-bottom: 90px;
+    gap: 60px;
+}
+.about .image img{
+    width: 400px;
+    border-radius: 50%;
+}
+.about .text h1{
+    font-size: 40px;
+    color:#35210f;
+font-size:xx-large;
+}
+.about .text p{
+    font-size: 25px;
+    line-height: 1.7;
+    color: #573423;
+    font-size:x-large;
+
+}
+
+.about a{
+    color: rgb(66, 41, 22);
+    padding: 5px;
+    background-color: #986e4e;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.about a:hover{
+    color: #9a653d ;
+    background-color: #d4a98e;
+}
+/* \\\\\\\\end about\\\\\\\ */
+
+
+
+.end{
+    background-color: #dbc9bf;
+    width: 100%;
+    box-shadow: 0 0 10px;
+}
+.end h4{
+        color: rgb(72, 51, 34);
+    text-align: center;
+    width: 90%;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.end h5, h6{
+    color: rgb(89, 53, 35);
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* \\\\\\\\\\end priject\\\\\\ */

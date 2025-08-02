@@ -1,0 +1,51 @@
+
+* {
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #dbc9bf;
+    display: flex;
+    justify-content: center;
+}
+form {
+    background-color: #ccad9b;
+    padding: 80px;
+    border-radius: 55px;
+    box-shadow: 0 0 10px #313130;
+    width: 60%;
+}
+form h2 {
+    margin-bottom: 15px;
+    font-size: large;
+    color:  #111010;
+}
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #363232;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border:solid #ccc;
+    border-radius: 15px;
+    font-size:medium;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+}
+input[type="submit"] {
+    background-color: rgb(167, 128, 106);
+    color:  rgb(8, 4, 0);
+    cursor: pointer;
+    font-size:small;
+}
+input[type="submit"]:hover {
+    background-color: rgba(179, 146, 136, 0.955);
+}
+/* \\\\\\\\\\end priject\\\\\\ */
